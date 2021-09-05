@@ -1,0 +1,27 @@
+.logo__text{
+    color: $accent-color;
+    font-family: $secondary-font;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px){
+        font-size: 26px;
+        line-height: 1.19;
+
+    }
+}
+
+.logo{
+    
+    @media screen and (min-width: 480px){
+    }
+}
+.logo--header{
+    color: $black-color;
+}
+.logo--footer{
+    color: $white-color ;
+}
