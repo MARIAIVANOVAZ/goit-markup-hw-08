@@ -6,8 +6,6 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
 
-    padding: 93px 15px 94px;
-
     opacity: 1 ;
     transition: opacity 250ms $cubic-bezier;
     // overflow-y: scroll;
@@ -27,7 +25,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 450px;
+    width: 100%;
+    
+    
     padding: 40px;
 
     transform: translate(-50%, -50%) scale(0.8);
@@ -38,6 +38,10 @@
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+
+    @media screen and (min-width: 768px){
+        width: 450px;
+    }
 
     @media screen and (min-width: 1200px){
         width: 528px;

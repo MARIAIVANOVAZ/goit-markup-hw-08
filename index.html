@@ -26,7 +26,8 @@
                     <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link link">Портфолио</a></li> 
                     <li class="site-nav__item"><a href="#" class="site-nav__link link">Контакты</a></li> 
                 </ul>
-                <button class="menu-toggle js-open-menu" type="button">
+                <button class="menu-toggle js-open-menu" type="button" aria-expanded="false"
+                aria-controls="mobile-menu">
                     <svg class="menu-toggle__icon" width="24px" height="16px">
                         <use  href="./images/symbol-defs.svg#icon-menu"></use>
                     </svg>
@@ -66,7 +67,7 @@
           
             
             <ul class="mobile-nav list">
-                <li class="mobile-nav__item "><a href="./index.html" class="mobile-nav__link link">Студия</a> </li>  
+                <li class="mobile-nav__item "><a href="./index.html" class="mobile-nav__link mobile-nav__link--current link">Студия</a> </li>  
                 <li class="mobile-nav__item"><a href="./portfolio.html" class="mobile-nav__link link">Портфолио</a></li> 
                 <li class="mobile-nav__item"><a href="#" class="mobile-nav__link link">Контакты</a></li> 
             </ul>
@@ -171,9 +172,9 @@
                     </li>
                     <li class="action__item">
                         <div class="action__thumb">
-                            <img scrset="./images/box21x.jpg 1x, ./images/box22x.jpg 2x"
+                            <img srcset="./images/box21x.jpg 1x, ./images/box22x.jpg 2x"
                             src="./images/box21x.jpg" 
-                            alt="phone" 
+                            alt="phone"
                             width="370">
                             <div class="action__overlay">
                                 <p class="action__description">Мобильные приложения</p>
@@ -182,7 +183,7 @@
                     </li>   
                     <li class="action__item">
                         <div class="action__thumb">
-                            <img srcset="./images/box31x.jpg 1x, ./images/box32x.jpg 2px"
+                            <img srcset="./images/box31x.jpg 1x, ./images/box32x.jpg 2x"
                             src="./images/box31x.jpg"
                             alt="tablet" 
                             width="370">
@@ -200,10 +201,9 @@
        <div class="container">
            <h2 class="section__title ">Наша команда</h2>
            <ul class="list team__list">
-               <li class="team__card"><img scrset="./images/photo1.jpg 1x, ./images/photo1x2.jpg 2x"
+               <li class="team__card"><img class="team__photo" srcset="./images/photo1.jpg 1x, ./images/photo1x2.jpg 2x"
                 src="./images/photo1.jpg" 
-                alt="фото"
-                sizes="(min-width:1200px) 25vw, (min-width:768px) 50vw, 100vw"/>
+                alt="фото"/>
                     <div class="team__description">
                         <h3 class="team__name">Игорь Демьяненко</h3>
                         <p class="team__profession">Product Designer</p>
@@ -239,11 +239,10 @@
                         </ul>
                     </div>
                </li>
-               <li class="team__card"><img 
+               <li class="team__card"><img class="team__photo"
                 srcset="./images/photo2.jpg 1x, ./images/photo2x2.jpg 2x "
                 src="./images/photo2.jpg" 
-                alt="фото"
-                sizes="(min-width:1200px) 25vw, (min-width:768px) 50vw, 100vw"/>
+                alt="фото"/>
                     <div class="team__description">        
                         <h3 class="team__name">Ольга Репина</h3>
                         <p class="team__profession">Frontend Developer</p>
@@ -279,11 +278,10 @@
                         </ul>
                     </div>
                </li>
-               <li class="team__card"><img
+               <li class="team__card"><img class="team__photo"
                 srcset="./images/photo3.jpg 1x, ./images/photo3x2.jpg 2x" 
                 src="./images/photo3.jpg" 
-                alt="фото"
-                sizes="(min-width:1200px) 25vw, (min-width:768px) 50vw, 100vw"/>
+                alt="фото"/>
                     <div class="team__description">
                         <h3 class="team__name">Николай Тарасов</h3>
                         <p class="team__profession">Marketing</p>
@@ -319,11 +317,10 @@
                         </ul>
                     </div>
                </li>
-               <li class="team__card"><img
+               <li class="team__card"><img class="team__photo"
                 srcset="./images/photo4.jpg 1x, ./images/photo4x2.jpg 2x" 
                 src="./images/photo4.jpg" 
-                alt="фото"
-                sizes="(min-width:1200px) 25vw, (min-width:768px) 50vw, 100vw"/>
+                alt="фото"/>
                     <div class="team__description">
                         <h3 class="team__name">Михаил Ермаков</h3>
                         <p class="team__profession">UI Designer</p>

@@ -80,8 +80,9 @@
             margin-top: 0 ;
             margin-left: 165px;
         }
-        @media screen and (min-width:768px) {
+        @media screen and (min-width: 1200px) {
             margin-left: 70px;
+            
         }
        
 }
@@ -98,6 +99,12 @@
     
     text-transform: uppercase;
     color: $white-color;
+
+    @media screen and (min-width: 1200px) {
+        // margin-left: 70px;
+        text-align: left;
+    }
+   
 }
 .social__links{
         
@@ -145,6 +152,7 @@
         margin-top: 60px ;
         text-align: center;
 
+      
         @media screen and (min-width:768px) {
             margin-right: auto;
             margin-left: auto;
@@ -152,6 +160,7 @@
         @media screen and (min-width:1200px) {
             margin-left: 93px;
             margin-top: 0;
+            text-align: left;
         }
     
    
